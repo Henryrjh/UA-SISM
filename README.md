@@ -46,10 +46,11 @@ The best score for each metric is marked in **bold**.
 |-------------|-----------|--------|
 |SGM          |  2.398    |  19.93 |
 |PSMNet       |  1.499    |  9.22 |
+|GwcNet       |  1.406    |  8.08 |
 |HMSMNet      |  1.473    |  9.17 |
-|RAFT         |  1.366    |  7.72 |
 |DLNR         |  1.389    |  8.03 |
-|Ours         |**1.313**  |**7.17**|
+|PCV         |  1.488    |  9.46 |
+|Ours         |**1.352**  |**7.67**|
 
 # Train
 Once we have organized the code, we will release it.
