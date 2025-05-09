@@ -15,3 +15,8 @@ This is the official code for UA-SISM.
 ![2](2.png)
 
 (a) left image. (b) disparity ground truth. (c) SGM. (d) PSMNet. (e) GwcNet. (f) HMSMNet. (g) DLNR. (h) PCV. (i) Ours.
+
+### Visualization on US3D dataset
+![3](3.png)
+
+(a) left image. (b) disparity ground truth. (c) SGM. (d) PSMNet. (e) GwcNet. (f) HMSMNet. (g) DLNR. (h) PCV. (i) Ours.
