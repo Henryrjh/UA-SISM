@@ -52,5 +52,17 @@ The best score for each metric is marked in **bold**.
 |PCV         |  1.488    |  9.46 |
 |Ours         |**1.352**  |**7.67**|
 
-# Train
-Once the code is organized, we will release it.
+## Test
+Please download weight: https://pan.baidu.com/s/1AJEuKonLPkbojP7Pks4dxQ?pwd=9aja
+
+Download and extract it, and place it in the root directory.
+
+For WHU:
+``` python evaluate_stereo.py --mode 16bit --max_disp 64 --min_disp -128 --test_left_dir WHU/left --test_right_dir WHU/right --test_disp_dir WHU/disp --test_save_path results/whu```
+The results will be saved at "results/whu"
+
+For US3D:
+``` python evaluate_stereo.py --mode 8bit --max_disp 96 --min_disp -96 --test_left_dir US3D/left --test_right_dir US3D/right --test_disp_dir US3D/disp --test_save_path results/US3D```
+The results will be saved at "results/US3D"
+
+## Thank you！
