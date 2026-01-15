@@ -1,11 +1,9 @@
 # UA-SISM
 This is the official code for UA-SISM.
 
-# Requirements
+# Installation
 
-```python==3.8```
-
-```einops==0.3.0```
+```pip install -r requirements.txt```
 
 # Framework
 
