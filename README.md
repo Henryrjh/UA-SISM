@@ -1,5 +1,5 @@
 # UA-SISM
-This is the official code for UA-SISM.
+This is the official code for UA-SISM (https://ieeexplore.ieee.org/document/11494089).
 
 # Installation
 
@@ -64,3 +64,16 @@ For US3D:
 The results will be saved at "results/US3D"
 
 ## Thank you！
+If you find our code useful, please consider adding the following citation:
+
+```bibtex
+@ARTICLE{11494089,
+  author={Rao, Jiahao and Liu, Rui and Chen, Jun and Tian, Xin},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Toward Reliable Disparity Estimation: Uncertainty-Aware Stereo Matching Framework for Satellite Images}, 
+  year={2026},
+  volume={64},
+  number={},
+  pages={1-17},
+  keywords={Satellite images;Earth Observing System;Feeds;Filtering;Filters;Pixel;Digital images;Electronic mail;LoRa;Communication systems;Disparity estimation;remote sensing;satellite images stereo matching (SISM);uncertainty learning},
+  doi={10.1109/TGRS.2026.3686969}}
