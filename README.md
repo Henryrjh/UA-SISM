@@ -51,7 +51,30 @@ The best score for each metric is marked in **bold**.
 |Ours         |**1.352**  |**7.67**|
 
 ## Test
-The code is being organized.
+```
+python evaluate_stereo.py \
+    --mode 16bit \
+    --device cuda \
+    --test_left_dir dataset/WHU-Stereo/with_GT/test_all/left \
+    --test_right_dir dataset/WHU-Stereo/test_all/right \
+    --test_disp_dir dataset/WHU-Stereo/test_all/disp \
+    --max_disp 64 \
+    --min_disp -128 \
+    --test_save_path results/whu
+```
+
+For US3D dataset:
+```
+python evaluate_stereo.py \
+    --mode 8bit \
+    --device cuda \
+    --test_left_dir dataset/US3D/test_all/left \
+    --test_right_dir dataset/US3D/test_all/right \
+    --test_disp_dir dataset/US3D/test_all/disp \
+    --max_disp 96 \
+    --min_disp -96 \
+    --test_save_path results/us3d
+```
 
 ## Thank you！
 If you find our code useful, please consider adding the following citation:
