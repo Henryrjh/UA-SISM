@@ -5,6 +5,12 @@ This is the official code for UA-SISM (https://ieeexplore.ieee.org/document/1149
 
 ```pip install -r requirements.txt```
 
+# Pretrained weights
+
+Please download and extract the pretrained weights, rename “UA_SISM_weights” to “weights”, and place it in the project root directory.
+
+https://pan.baidu.com/s/1iTNl_v50vvgoZ837hLbl0Q?pwd=6tjb
+
 # Framework
 
 ![1](1.png)
@@ -58,6 +64,7 @@ python evaluate_stereo.py \
     --test_left_dir dataset/WHU-Stereo/with_GT/test_all/left \
     --test_right_dir dataset/WHU-Stereo/test_all/right \
     --test_disp_dir dataset/WHU-Stereo/test_all/disp \
+    --weight_path weights/whu.pth \
     --max_disp 64 \
     --min_disp -128 \
     --test_save_path results/whu
@@ -71,6 +78,7 @@ python evaluate_stereo.py \
     --test_left_dir dataset/US3D/test_all/left \
     --test_right_dir dataset/US3D/test_all/right \
     --test_disp_dir dataset/US3D/test_all/disp \
+    --weight_path weights/us3d.pth \
     --max_disp 96 \
     --min_disp -96 \
     --test_save_path results/us3d
